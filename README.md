@@ -3,13 +3,22 @@ This project is "only" for TONIC laboratory member who is interested in Wi-Fi se
 
 <br/>
 
-# We use 
-<br/>
-GPU: NVIDIA RTX 3070   
-OS:Ubuntu 18.04.6 LTS   
+## We use 
+
+GPU: NVIDIA RTX 3070  
+OS: Ubuntu 18.04.6 LTS
  
 
-### Prerequisite
+## Prerequisite
+
+tensorflow = 2.8.2  
+tensorflow-addons = 0.17.1 (Use "pip install")    
+cudnn = 8.2.1  
+cudatoolkit = 11.3.1  
+
+
+
+
 
 
 
