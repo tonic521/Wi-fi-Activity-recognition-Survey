@@ -6,8 +6,9 @@ This project is "only" for TONIC laboratory member who is interested in Wi-Fi se
 # We use
 
 <br/>
-GPU: NVIDIA RTX 3070  
-OS:Ubuntu 18.04.6 LTS    
+GPU: NVIDIA RTX 3070 
+OS:Ubuntu 18.04.6 LTS 
+
 
 ### Prerequisite
 
