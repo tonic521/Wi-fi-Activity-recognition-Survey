@@ -7,7 +7,7 @@ This project is "only" for TONIC laboratory member who is interested in Wi-Fi se
 
 GPU: NVIDIA RTX 3070  
 OS: Ubuntu 18.04.6 LTS  
-Package Management: Anaconda3(Highly recommend**)
+Package Management: Anaconda3 (Highly recommend**)
  
 
 ## Prerequisite
