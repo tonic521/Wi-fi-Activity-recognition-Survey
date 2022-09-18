@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 import sys
-#import tensorflow_addons as tfa
 from tensorflow_addons import rnn
 from sklearn.model_selection import KFold, cross_val_score
 import csv
@@ -94,7 +93,8 @@ confusion_sum = [[0 for i in range(7)] for j in range(7)]
 x_bed, x_fall, x_pickup, x_run, x_sitdown, x_standup, x_walk, \
 y_bed, y_fall, y_pickup, y_run, y_sitdown, y_standup, y_walk = csv_import()
 
-print(" bed =",len(x_bed), " fall=", len(x_fall), " pickup =", len(x_pickup), " run=", len(x_run), " sitdown=", len(x_sitdown), " standup=", len(x_standup), " walk=", len(x_walk))
+print(" bed =",len(x_bed), " fall=", len(x_fall), " pickup =", Date:   Thu Sep 1 15:01:25 2022 +0800
+len(x_pickup), " run=", len(x_run), " sitdown=", len(x_sitdown), " standup=", len(x_standup), " walk=", len(x_walk))
 
 #data shuffle
 x_bed, y_bed = shuffle(x_bed, y_bed, random_state=0)
