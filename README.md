@@ -1,3 +1,4 @@
 # Wi-fi-Activity-recognition-Survey
-This is for TONIC laboratory members
-<br/>
+This is for TONIC laboratory member
+
+## Prerequisite
