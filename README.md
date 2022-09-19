@@ -1,5 +1,5 @@
 # Wi-fi-Activity-recognition-Survey
-This project is "only" for TONIC laboratory member who is interested in Wi-Fi sensing.This is a detailed guidance of running the code given by the author of survey paper-><a href="https://doi.org/10.1109/MCOM.2017.1700082">A Survey on Behavior Recognition Using WiFi Channel State Information</a>.
+This project is "only" for TONIC laboratory member who is interested in Wi-Fi sensing.This is a detailed guidance of running the code given by the author of survey paper-><a href="https://doi.org/10.1109/MCOM.2017.1700082">A Survey on Behavior Recognition Using WiFi Channel State Information</a>.Furthermore,this page foucus on runnung the code fluently rather comprehensively expalaing the code and data. If you have any other question,please check "Other information".
 
 <br/>
 
