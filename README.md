@@ -26,7 +26,7 @@ pandas = 0.23.0
 <br/>
 
 ## How to  run
-0. Download dataset from [here](https://drive.google.com/drive/folders/1c_DIC1q9Zn3UKKn6XrX47IuNkrOUkhjO?usp=sharing)  
+0. Download dataset from [here](https://drive.google.com/file/d/1OA8pb_KWjFV2Vh2ymOvvQ2zJrp5GhmI-/view?usp=sharing)  
  -> **Notice: Dataset size is ~4GB**  
 
 1. "git clone" this repository.  
