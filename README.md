@@ -7,7 +7,7 @@ This project is "only" for TONIC laboratory member who is interested in Wi-Fi se
 
 GPU: NVIDIA RTX 3070  
 OS: Ubuntu 18.04.6 LTS  
-Package Management: Anaconda3 (Highly recommend**)
+Package Managemenhttps://github.com/ermongroup/Wifi_Activity_Recognitiont: Anaconda3 (Highly recommend**)
  
 
 ## Prerequisite
@@ -36,4 +36,6 @@ pandas = 0.23.0
 3. Run the cross_vali_recurrent_network_wifi_activity.py 
  -> This script makes learning curve images & confusion matrix in a new folder.　　
 
+## Other information
+Plese check [here](https://github.com/ermongroup/Wifi_Activity_Recognition)
 
