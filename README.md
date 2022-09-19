@@ -22,7 +22,18 @@ numpy = 1.14.3
 matplotlib = 2.2.2  
 pandas = 0.23.0  
 
+<br/>
 
+## How to  run
+0. Download dataset from [here](https://drive.google.com/drive/folders/1c_DIC1q9Zn3UKKn6XrX47IuNkrOUkhjO?usp=sharing)  
+ -> **Notice: Dataset size is ~4GB**  
 
+1. "git clone" this repository.  
+ 
+2. Run the cross_vali_data_convert_merge.py  
+ -> This script makes csv files(input features & label) of each activity in "input_files" folder.　　
+
+3. Run the cross_vali_recurrent_network_wifi_activity.py 
+ -> This script makes learning curve images & confusion matrix in a new folder.　　
 
 
