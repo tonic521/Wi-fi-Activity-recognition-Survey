@@ -8,7 +8,7 @@ Furthermore, this page foucuses on running the code fluently rather than compreh
 
 GPU: NVIDIA RTX 3070  
 OS: Ubuntu 18.04.6 LTS  
-Package Managemenhttps://github.com/ermongroup/Wifi_Activity_Recognitiont: Anaconda3 (Highly recommend**)
+Package Management: Anaconda3 (Highly recommend**)
  
 
 ## Prerequisite
