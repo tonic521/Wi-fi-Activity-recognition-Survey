@@ -13,15 +13,15 @@ Package Management: Anaconda3 (Highly recommend**)
 
 ## Prerequisite
 
-python = 3.6.5  
-tensorflow = 2.8.2  
-tensorflow-addons = 0.17.1 (Use "pip install")    
-cudnn = 8.2.1  
-cudatoolkit = 11.3.1  
-scikit-learn = 0.19.1   
-numpy = 1.14.3    
-matplotlib = 2.2.2  
-pandas = 0.23.0  
+python=3.8.16  
+tensorflow==2.8.2  
+tensorflow-addons==0.17.1 (Use "pip install")    
+cudnn=8.2.1  
+cudatoolkit=11.3.1  
+scikit-learn=0.19.1   
+numpy    
+matplotlib  
+pandas  
 
 <br/>
 
