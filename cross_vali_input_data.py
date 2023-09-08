@@ -63,10 +63,16 @@ def csv_import():
         SKIPROW = 2 #Skip every 2 rows -> overlap 800ms to 600ms  (To avoid memory error)
         num_lines = sum(1 for l in open("./input_files/xx_1000_60_" + str(i) + ".csv"))
         skip_idx = [x for x in range(1, num_lines) if x % SKIPROW !=0]
+        xx = pd.DataFrame()
+        yy = pd.DataFrame()
+        for chunk in pd.read_csv("./input_files/xx_1000_60_" + str(i) + ".csv", header=None, skiprows = skip_idx, chunksize=1000):
+            xx = pd.concat([xx, chunk], ignore_index=True)
+        
+        for chunk_y in pd.read_csv("./input_files/yy_1000_60_" + str(i) + ".csv", header=None, skiprows = skip_idx, chunksize=1000):
+            yy = pd.concat([yy, chunk_y], ignore_index=True)
 
-        xx = np.array(pd.read_csv("./input_files/xx_1000_60_" + str(i) + ".csv", header=None, skiprows = skip_idx))
-        yy = np.array(pd.read_csv("./input_files/yy_1000_60_" + str(i) + ".csv", header=None, skiprows = skip_idx))
-
+        xx=np.array(xx)
+        yy=np.array(yy)
         # eliminate the NoActivity Data
         rows, cols = np.where(yy>0)
         xx = np.delete(xx, rows[ np.where(cols==0)],0)
