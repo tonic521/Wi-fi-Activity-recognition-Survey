@@ -13,16 +13,19 @@ Package Management: Anaconda3 (Highly recommend**)
 
 ## Prerequisite
 
-python=3.8.16  
+python=3.8.17  
 tensorflow==2.8.2 (Use "pip install")  
-tensorflow-addons==0.17.1 (Use "pip install")    
-cudnn=8.2.1  
-cudatoolkit=11.3.1  
-scikit-learn=0.19.1   
+tensorflow-addons==0.21.0 (Use "pip install")    
+cudnn=8.9.2.26
+cudatoolkit=11.8.0  
+scikit-learn=1.3.0   
 numpy    
 matplotlib  
 pandas  
-
+**If "import tensorflow as tf " shows the following warning:** \
+Unable to load cudart...... (something like this) \
+Try this: \
+`conda env config vars set LD_LIBRARY_PATH=$CONDA_PREFIX/lib`
 <br/>
 
 ## How to  run
