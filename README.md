@@ -14,7 +14,7 @@ Package Management: Anaconda3 (Highly recommend**)
 ## Prerequisite
 
 python=3.8.17  
-tensorflow==2.8.2 (Use "pip install")  
+tensorflow==2.13.0 (Use "pip install")  
 tensorflow-addons==0.21.0 (Use "pip install")    
 cudnn=8.9.2.26
 cudatoolkit=11.8.0  
