@@ -16,12 +16,10 @@ Package Management: Anaconda3 (Highly recommend**)
 python=3.8.17  
 tensorflow==2.13.0 (Use "pip install")  
 tensorflow-addons==0.21.0 (Use "pip install")    
-cudnn=8.9.2.26
-cudatoolkit=11.8.0  
-scikit-learn=1.3.0   
-numpy    
-matplotlib  
-pandas  
+pandas==2.0.3 (Use "pip install") \
+cudnn=8.9.2.26 \
+cudatoolkit=11.8.0 <br/>
+scikit-learn=1.3.0     
 **If "import tensorflow as tf " shows the following warning:** \
 Unable to load cudart...... (something like this) \
 Try this: \
