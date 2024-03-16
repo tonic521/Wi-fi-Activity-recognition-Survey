@@ -6,8 +6,8 @@ Furthermore, this page foucuses on running the code fluently rather than compreh
 
 ## We use 
 
-GPU: NVIDIA RTX 3070  
-OS: Ubuntu 18.04.6 LTS  
+GPU: NVIDIA RTX 4090  
+OS: Ubuntu 22.04.4 LTS  
 Package Management: Anaconda3 (Highly recommend**)
  
 
